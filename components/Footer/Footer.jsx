@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 
+import { Github, Linkedin, Twitter} from 'lucide-react';
+
 const getLinks = [
   {
     path: '#home',
@@ -22,15 +24,15 @@ const getLinks = [
 
 const socialLinks = [
   {
-    name: 'GitHub',
-    url: 'https://github.com/seuprojeto',
+    icon: <Github size={25} />,
+    url: 'https://github.com/joseook/pokemon_api_info',
   },
   {
-    name: 'Twitter',
+    icon: <Twitter size={25} />,
     url: 'https://twitter.com/seuprojeto',
   },
   {
-    name: 'LinkedIn',
+    icon: <Linkedin size={25} />,
     url: 'https://www.linkedin.com/in/seuprojeto',
   },
 ];
@@ -38,27 +40,27 @@ const socialLinks = [
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white p-8">
-      <div className="container mx-auto flex flex-wrap justify-between">
-        <div className="flex items-center space-x-4">
+      <div className="container mx-auto xl:flex flex-wrap justify-between">
+        <div className="flex items-center space-x-4 mb-4 lg:mb-0">
           {getLinks.map((link) => (
             <Link key={link.name} href={link.path} className="hover:text-gray-500">
               {link.name}
             </Link>
           ))}
         </div>
-        <div>
+        <div className="text-center lg:text-left mb-4 lg:mb-0">
           <p>&copy; 2023 Seu Projeto. Todos os direitos reservados.</p>
         </div>
         <div className="flex items-center space-x-4">
           {socialLinks.map((socialLink) => (
             <a
-              key={socialLink.name}
+              key={socialLink.icon}
               href={socialLink.url}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-500"
             >
-              {socialLink.name}
+              {socialLink.icon}
             </a>
           ))}
         </div>
