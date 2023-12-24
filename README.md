@@ -1,40 +1,43 @@
-
 # Pokemon Info App
 
-## Project Description
+## Project Overview
 
-The Pokemon Info App is a web application that provides detailed information about various Pokémon. Users can explore the Pokédex, view statistics, skills, and learn more about their favorite Pokémon.
+The Pokemon Info App is a dynamic web application that serves as an extensive resource for detailed information about a wide range of Pokémon. Users can seamlessly navigate the Pokédex, explore statistics, delve into individual skills, and discover intriguing facts about their beloved Pokémon.
 
-## Features
+## Project Showcase
+
+![Project Showcase GIF](img/project_gif.gif)
+
+## Key Features
 
 - Paginated listing of Pokémon.
-- Individual details for each Pokémon.
-- Navigation between Pokémon.
-- Responsive design for different screen sizes.
-- POKE API: [https://pokeapi.co/](https://pokeapi.co/)
+- In-depth details for each Pokémon.
+- Intuitive navigation between Pokémon.
+- Responsive design catering to diverse screen sizes.
+- Utilizes the POKE API: [https://pokeapi.co/](https://pokeapi.co/)
 
-## Technologies Used
+## Technologies Utilized
 
 - **Frontend:**
   - React.js
-  - Framer Motion (for animations)
-  - Next.js (for server-side rendering and routing)
-  - Swiper (for the trainers' gallery)
+  - Framer Motion (for engaging animations)
+  - Next.js (for efficient server-side rendering and routing)
+  - Swiper (for a captivating trainers' gallery)
 
 - **Styling:**
   - Tailwind CSS
 
 - **State Management:**
-  - React Hooks (useState, useEffect)
+  - Leveraging React Hooks (useState, useEffect)
 
 - **HTTP Requests:**
-  - Axios
+  - Implementation through Axios
 
 ## How to Run the Project
 
 1. **Prerequisites:**
-   - Node.js installed
-   - npm or yarn installed
+   - Ensure Node.js is installed
+   - npm or yarn is available
 
 2. **Clone the Repository:**
    ```bash
@@ -52,20 +55,18 @@ The Pokemon Info App is a web application that provides detailed information abo
    npm run dev # or yarn dev
    ```
 
-5. Access the application at [http://localhost:3000](http://localhost:3000) for modifications open file server.js.
+5. Access the application at [http://localhost:3000](http://localhost:3000). For any modifications, refer to the server.js file.
 
 ## Project Structure
 
-- `components/`: Reusable components.
-- `app/`: Application pages.
-- `public/`: Static resources.
+- `components/`: Home to reusable components.
+- `app/`: Holds application pages.
+- `public/`: Repository for static resources.
 
 ## Contributions
 
-Contributions are welcome! Feel free to open issues or pull requests.
+Contributions are highly encouraged! Feel free to open issues or submit pull requests.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
-
