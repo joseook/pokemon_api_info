@@ -32,7 +32,7 @@ const CardsPokemon = ({ pokemon, loading, infoPokemon, onCardClick, onCloseCardI
               animate="visible"
             >
               <Card
-                className="sm:w-[200px] xl:w-[300px] relative xl:left-[-200px] bg-[#a5b4fc] shadow-md p-3 flex flex-col"
+                className="sm:w-[200px] xl:w-[300px] relative xl:left-[-200px] bg-[#a5b4fc] dark:bg-transparent shadow-md p-3 flex flex-col"
                 onClick={() => {
                   infoPokemon(item);
                   onCardClick && onCardClick(item); 

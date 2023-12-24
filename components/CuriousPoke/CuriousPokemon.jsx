@@ -160,7 +160,7 @@ const CuriousPokemon = () => {
             {pokemonsData.map((pokemon) => (
               <SwiperSlide key={pokemon.id}>
                 <div className="max-w-sm mx-auto">
-                  <Card className="h-[300px] shadow-md">
+                  <Card className="h-[340px] shadow-md">
                     <CardHeader>{pokemon.icon}</CardHeader>
                     <CardContent>
                       <h2 className="text-xl font-bold mb-2">{pokemon.feature}</h2>

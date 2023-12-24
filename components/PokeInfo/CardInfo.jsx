@@ -38,7 +38,7 @@ const CardInfo = ({ data, onCloseCardInfo }) => {
           animate="visible"
           className="h-full"
         >
-          <Card shadow-md className="bg-[#a5b4fc] relative xl:left-[200px] xl:w-[600px] lg:w-[320px] w-[350px] xl:h-full  left-[-50px]">
+          <Card shadow-md className="bg-[#a5b4fc] dark:bg-transparent dark:backdrop-blur relative xl:left-[200px] xl:w-[600px] lg:w-[320px] w-[350px] xl:h-full  left-[-50px]">
             <CardHeader className="items-center">
               <Image
                 src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${data.id}.svg`}

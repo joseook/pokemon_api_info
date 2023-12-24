@@ -135,7 +135,7 @@ const PokeInfo = () => {
             {nextUrl && <Button onClick={handleNextClick}>Next</Button>}
           </div>
         </div>
-        <div className="descriptions-pokemons basis-1/2 absolute xl:left-[50%] xl:top-[295%] top-[362%] left-[20%]">
+        <div className="descriptions-pokemons basis-1/2 absolute xl:left-[50%] xl:top-[340%] top-[370%] left-[15%]">
           {isCardInfoOpen && selectedPokemon && (
             <CardInfo data={selectedPokemon} onCloseCardInfo={handleCloseCardInfo} />
           )}
