@@ -49,7 +49,7 @@ const Footer = () => {
           ))}
         </div>
         <div className="text-center lg:text-left mb-4 lg:mb-0">
-          <p>&copy; 2023 Seu Projeto. Todos os direitos reservados.</p>
+          <p>&copy; 2023 Joseok. Todos os direitos reservados.</p>
         </div>
         <div className="flex items-center space-x-4">
           {socialLinks.map((socialLink) => (
